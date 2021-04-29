@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  height: 100vh;
+  max-width: 100vw;
+  overflow: hidden; }
+
+.App {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  text-align: center; }
+
+.Review {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 3rem; }
+  .Review:nth-child(2) {
+    left: 40rem; }
+  .Review:nth-child(3) {
+    left: 80rem; }
+  .Review > * {
+    margin: 2rem auto;
+    max-width: 90%; }
+  .Review__avatar {
+    margin: 0 auto;
+    width: 5rem;
+    height: 5rem;
+    background: #f55;
+    border-radius: 50%;
+    font-size: 2rem;
+    line-height: 5rem; }
+  .Review__button {
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #f55;
+    color: white; }
+    .Review__button:hover {
+      cursor: pointer; }
+
+.Slider {
+  place-self: center;
+  border: 1px solid black;
+  overflow: hidden; }
+
+.Slides {
+  position: relative;
+  height: 30rem;
+  width: 40rem;
+  list-style: none;
+  transition: all 0.5s; }

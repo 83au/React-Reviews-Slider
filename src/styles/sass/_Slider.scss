@@ -1,0 +1,13 @@
+.Slider {
+  place-self: center;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.Slides {
+  position: relative;
+  height: 30rem;
+  width: 40rem;
+  list-style: none;
+  transition: all 0.5s;
+}
